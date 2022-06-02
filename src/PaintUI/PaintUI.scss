@@ -1,0 +1,69 @@
+.all-posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  .post-links-container {
+    position: relative;
+    width: 270px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin: 1rem auto;
+    text-align: left;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    .post-title {
+      font-size: 17px;
+      text-transform: capitalize;
+      margin: 0;
+    }
+
+    .post-detail {
+      text-transform: capitalize;
+      margin: 1.5rem 0 2.5rem 0;
+    }
+
+    .post-author-btn {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 0.5rem;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .user-links {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin: 0.5rem;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 0.25rem;
+      color: rgb(255, 255, 255);
+      background: rgb(49, 182, 238);
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .post-links {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 0.5rem;
+      text-decoration: none;
+      color: rgb(35, 92, 226);
+      transition: 0.2s all ease-in-out;
+    }
+
+    .post-links:hover {
+      opacity: 0.7;
+      text-decoration: underline;
+    }
+  }
+}

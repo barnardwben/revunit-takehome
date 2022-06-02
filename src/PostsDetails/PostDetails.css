@@ -1,0 +1,33 @@
+.main-page h3 {
+  text-transform: capitalize;
+}
+
+.main-page .post-desc-container {
+  width: 400px;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+
+.main-page .post-desc-container .post-desc {
+  display: inline;
+}
+
+.comment-container {
+  width: 600px;
+  margin: 1rem auto;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+}
+
+.comment-container .comment {
+  margin: 0.5rem 0;
+}
+
+.comment-container .comment .comment-detail {
+  font-weight: bold;
+}
+/*# sourceMappingURL=PostDetails.css.map */

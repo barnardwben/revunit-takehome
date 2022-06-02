@@ -1,0 +1,76 @@
+.all-posts-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.all-posts-container .post-links-container {
+  position: relative;
+  width: 270px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 1rem auto;
+  text-align: left;
+  padding: 1rem;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.all-posts-container .post-links-container .post-title {
+  font-size: 17px;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.all-posts-container .post-links-container .post-detail {
+  text-transform: capitalize;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.all-posts-container .post-links-container .post-author-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.all-posts-container .post-links-container .user-links {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0.25rem;
+  color: white;
+  background: #31b6ee;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.all-posts-container .post-links-container .post-links {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0.5rem;
+  text-decoration: none;
+  color: #235ce2;
+  -webkit-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+}
+
+.all-posts-container .post-links-container .post-links:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=PaintUI.css.map */
