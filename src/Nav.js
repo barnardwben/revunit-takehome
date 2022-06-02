@@ -8,6 +8,13 @@ const Nav = () => {
       <Link className="nav-link" to="/">
         All Posts
       </Link>
+      <a
+        href="https://github.com/barnardwben/revunit-takehome"
+        target="_blank"
+        className="nav-link"
+      >
+        Github Repo
+      </a>
     </nav>
   );
 };
